@@ -11,5 +11,6 @@ http://www.aabor.ninja
 # authorization need to perform the following
 aws s3 cp ./www/ s3://aabor.ninja/ --recursive --exclude "**/.DS_Store" --dryrun
 
-aws s3 sync ./www/ s3://aabor.ninja/ --recursive --exclude "**/.DS_Store" --dryrun
+# update website
+aws s3 sync ./www/ s3://aabor.ninja/  --exclude "**/.DS_Store" --dryrun
 ``` 
