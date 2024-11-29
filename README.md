@@ -22,9 +22,9 @@ aws s3 sync ./www/ s3://www.aabor.ninja/ --exclude ".DS_Store"
 ```sh
 aws cloudfront create-invalidation \
     --distribution-id EZ6G3O6BJTNUG \
-    --paths "/*"
+    --paths "/index.html"
 
 aws cloudfront create-invalidation \
     --distribution-id E2JTJ24WC5UG30 \
-    --paths "/*"
+    --paths "/index.html"
 ```
