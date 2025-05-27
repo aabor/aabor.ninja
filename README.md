@@ -9,12 +9,12 @@ http://www.aabor.ninja
 
 ```sh
 # authorization need to perform the following
-aws s3 cp ./www/ s3://www.aabor.ninja/ --recursive --exclude ".DS_Store" --dryrun
-aws s3 cp ./www/ s3://www.aabor.ninja/ --recursive --exclude ".DS_Store"
+aws s3 cp ./www/ s3://www.aabor.ninja/ --recursive --exclude "*.DS_Store" --dryrun
+aws s3 cp ./www/ s3://www.aabor.ninja/ --recursive --exclude "*.DS_Store"
 
 # update website
-aws s3 sync ./www/ s3://www.aabor.ninja/ --exclude ".DS_Store" --dryrun
-aws s3 sync ./www/ s3://www.aabor.ninja/ --exclude ".DS_Store"
+aws s3 sync ./www/ s3://www.aabor.ninja/ --exclude "*.DS_Store" --dryrun
+aws s3 sync ./www/ s3://www.aabor.ninja/ --exclude "*.DS_Store"
 ``` 
 
 # Cloudfront invalidation
