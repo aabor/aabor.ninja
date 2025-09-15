@@ -8,7 +8,7 @@ http://www.aabor.ninja
 # Update resume in Google Drive
 Open Google Drive folder in the Browser window.
 
-To update a file in Google Drive without changing its shareable link, utilize the "Manage Versions" feature. Right-click the file, select "Manage Versions," and upload the updated file. This replaces the old version while preserving the existing link.
+To update a file in Google Drive without changing its shareable link, utilize the "Manage Versions" feature. Right-click the file, File Information>"Manage Versions," and upload the updated file. This replaces the old version while preserving the existing link.
 
 # Upload Website to AWS S3 bucket
 
